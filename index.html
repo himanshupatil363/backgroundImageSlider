@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Background Image Project</title>
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+ <style>
+     .fas{
+         color: black;
+     }
+     #img-container{
+       height: 100%;
+       width: 100%;
+       background-size: cover;
+       display: flex;
+       justify-content: space-between;
+       align-self: center;
+     }
+     .container{
+       height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     body{
+       height: 100%;
+       margin: 0%;
+     }
+     html{
+       height: 100%;
+     }
+     button{
+       margin:23% 3%;
+       width: 4%;
+       border-radius: 100%;
+       opacity: 80%;
+       border: none;
+       outline: none;
+       transition-duration: 1s;
+     }
+     button:hover{
+       transform:scale(1.1);
+       opacity:100%;
+     }
+     i{
+       outline: none;
+     }
+ </style>
+</head>
+<body>
+ <div class="container">
+   <div id="img-container">
+    <button class="btn left" id="left"><i class="fas fa-chevron-left"></i></button>
+    <button class="btn right" id="right"><i class="fas fa-chevron-right"></i></button>
+   </div>
+ </div>
+ <script src="app.js"></script>
+</body>
+</html>
